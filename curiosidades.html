@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades Culturais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Curiosidades Culturais</h1>
+            <nav>
+                <ul>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="curiosidades" class="curiosidades">
+        <div class="container">
+            <h2>Curiosidades Culturais</h2>
+            <div class="tabs">
+                <button class="tablinks" onclick="openTab(event, 'tab1')" id="defaultOpen">Tab 1</button>
+                <button class="tablinks" onclick="openTab(event, 'tab2')">Tab 2</button>
+                <button class="tablinks" onclick="openTab(event, 'tab3')">Tab 3</button>
+            </div>
+
+            <div id="tab1" class="tabcontent">
+                <h3>Curiosidades Gerais</h3>
+                <div class="curiosidade">
+                    <h3>Curiosidade 1</h3>
+                    <p>Os japoneses têm o costume de se curvar ao cumprimentar, uma forma de mostrar respeito e cortesia.</p>
+                    <img src="japan.jpg" alt="Curiosidade Japão">
+                </div>
+                <div class="curiosidade">
+                    <h3>Curiosidade 2</h3>
+                    <p>Na cultura mexicana, o Dia dos Mortos é uma celebração colorida e festiva para honrar os entes queridos que já partiram.</p>
+                    <img src="mexico.jpg" alt="Curiosidade México">
+                </div>
+            </div>
+
+            <div id="tab2" class="tabcontent">
+                <h3>Curiosidades Históricas</h3>
+                <div class="curiosidade">
+                    <h3>Curiosidade 1</h3>
+                    <p>Os antigos egípcios usavam papiros para escrever textos religiosos e literários.</p>
+                    <img src="egypt.jpg" alt="Curiosidade Egito">
+                </div>
+                <div class="curiosidade">
+                    <h3>Curiosidade 2</h3>
+                    <p>A antiga cidade de Petra, na Jordânia, é conhecida por seus edifícios esculpidos em rochas vermelhas.</p>
+                    <img src="petra.jpg" alt="Curiosidade Petra">
+                </div>
+            </div>
+
+            <div id="tab3" class="tabcontent">
+                <h3>Vídeos Culturais</h3>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dl2GVqzJd7U" frameborder="0" allowfullscreen></iframe>
+                    <p>Exploração da cultura japonesa</p>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7hRWqT7srls" frameborder="0" allowfullscreen></iframe>
+                    <p>Festival do Dia dos Mortos no México</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre o Site</h2>
+            <p>Este site foi criado para compartilhar curiosidades interessantes sobre diferentes culturas ao redor do mundo. Explore e divirta-se!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Curiosidades Culturais. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
